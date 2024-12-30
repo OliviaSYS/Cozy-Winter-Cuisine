@@ -1,0 +1,40 @@
+button {
+    position: relative;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+button:hover {
+    content: "";
+    display: block;
+    position: absolute;
+    opacity: 50%;
+    transform: scale(0.5, 0.5);
+    transition: all 0.8s
+}
+
+button:hover:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
+
+button:active {    
+    opacity: 10%;
+    transform: scale(0.5, 0.5);
+    transition: all 0.8s;
+    background-color: #3e8e41
+}
+
+  
