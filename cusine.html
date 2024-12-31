@@ -1,36 +1,68 @@
 <!doctype html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link href="styles.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Kranky&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
-    <title>Cozy Winter Cuisine</title>
-  </head>
-  <body>
-    <header>
-        <h1>Cozy Winter Cuisine</h1>
-    </header>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link href="styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mansalva&family=Outfit:wght@100..900&display=swap"
+    rel="stylesheet">
 
-    <p id="name">name</p>
+  <title>Cozy Winter Cuisine</title>
+</head>
 
-    <ol id="ingredients">
-      <li>a</li>
-      <li>b</li>
-      <li>c</li>
-    </ol>
-    
-    
+<body>
+  <header>
+    <h1 class="cozy">Cozy Winter Cuisine</h1>
+  </header>
+  <div class="content">
+  <h2 id="name" class="opening">name</h2>
+
+  <p id="description" class="opening">description</p>
+
+  <img id="image" src="Images/Vegetable-Soup.jpg" />
+
+  <h3>Ingredients</h3>
+
+  <uol id="ingredients">
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+  </uol>
+
+  <h3>Materials</h3>
+
+  <uol id="materials">
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+  </uol>
+
+  <h3>Steps</h3>
+
+  <ol id="steps">
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+  </ol>
+
+  <h3>Notes</h3>
+
+  <ol id="notes">
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+  </ol>
+  <div class="buttons">
     <button onclick="location.href='index.html'">Back to Homepage!</button>
     <button id="next">Next recipe</button>
+  </div></div>
+  <footer>
+    <p class="cozy">Made by Olivia!</p>
+  </footer>
+  <script src="cusine.js"></script>
+</body>
 
-    <footer>
-        
-    </footer>
-    <script src="cusine.js"></script>
-  </body>
 </html>

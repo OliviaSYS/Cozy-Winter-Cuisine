@@ -1,30 +1,81 @@
 body {
+    background-color: #B9D9EB;
     font-family: "Outfit", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    background-color: #B9D9EB;
-    text-align: center;
     color: #464347;
-    margin: 0 auto;
-    padding: 10 20 20 20;
     font-size: medium;
+    margin: 0;
 }
 
-h1 {
+.content {
+    margin: 2% 20%;
+}
+
+.opening {
+    text-align: center;
+}
+
+.cozy {
+    margin: 0;
+    padding: 1.9%;
     color: #18254C;
-    font-family: "Kranky", serif;
+    font-family: "Mansalva", serif;
     font-weight: 590;
     font-style: normal;
     font-variant: small-caps;
     text-align: center;
     width: auto;
-    margin: 0 auto;
     padding: 70 100 100 100;
     background-color: #98D9C2;
 }
 img {
     display: block;
     margin: 0 auto;
-    max-width: 50%;
+    height: 300px;
+    border-radius: 25px;
 }
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    position: relative;
+    margin: 20px 50px;
+    background-color: #C1666B;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #011627;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 50%;
+    transform: scale(0.8, 0.8);
+    transition: all 0.8s
+}
+
+button:hover:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
+
+button:active {    
+    opacity: 10%;
+    transform: scale(0.5, 0.5);
+    transition: all 0.8s;
+    background-color: #3e8e41
+}
+
+  
+
